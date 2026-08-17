@@ -25,7 +25,7 @@ import { FiltersState } from ".";
 
 const springBootBaseQuery = fetchBaseQuery({
     baseUrl:
-      process.env.NEXT_PUBLIC_API_BASE_URL ?? "https  ://api.shagriha.com/api/v1/",
+      process.env.NEXT_PUBLIC_API_BASE_URL ?? "https://api.shagriha.com/api/v1/",
     prepareHeaders: (headers) => {
       const accessToken = getAccessToken();
       if (accessToken) {
